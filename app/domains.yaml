@@ -1,0 +1,101 @@
+# 아키텍처 §9 — 코드 배포 없이 도메인 추가·수정
+domains:
+  - name: Multiverse
+    sourcetype: kube:container:multiverse-fleta
+    description: 빅데이터에서 제공하는 개인화 추천 정보를 DB에 적재하는 기능 제공
+  - name: Sokuri
+    sourcetype: kube:container:sokuri-fleta
+    description: 전단말 공통 실시간 랭킹 정보 제공
+  - name: Curation
+    sourcetype: kube:container:curation-fleta
+    description: 단말에서 사용자 추천 정보 조회하는 API 제공
+  - name: Terms
+    sourcetype: kube:container:terms-fleta
+    description: 서비스 약관 정보 및 동의 기능 제공
+  - name: VodLookup
+    sourcetype: kube:container:vodlookup-fleta
+    description: VOD 편성·컨텐츠 정보를 제공하기 위한 리드모델 관리
+  - name: Contents
+    sourcetype: kube:container:contents-fleta
+    description: 화제동영상, 배너, 광고 등 VOD 확장 컨텐츠 및 비 VOD 컨텐츠 정보 제공
+  - name: Programming
+    sourcetype: kube:container:programming-fleta
+    description: 컨텐츠 편성 정보 제공
+  - name: Product
+    sourcetype: kube:container:product-fleta
+    description: VOD 상품 관련 정보를 단말에 제공
+  - name: Channel
+    sourcetype: kube:container:channel-fleta
+    description: 실시간 채널 정보를 관리하고 단말에 제공
+  - name: Subscriber
+    sourcetype: kube:container:subscriber-fleta
+    description: 가입자 정보, 쿠폰, 가입 상품 관리 및 단말 제공. 개인화 프로필 관리 기능 포함
+  - name: Personalization
+    sourcetype: kube:container:personalization-fleta
+    description: 찜, 평가, 플레이리스트 등 개인 선택 정보 제공
+  - name: SearchWord
+    sourcetype: kube:container:searchword-fleta
+    description: 검색 기능 제공
+  - name: Payment
+    sourcetype: kube:container:payment-fleta
+    description: 청구서 결제, 휴대폰 결제 등 각종 결제 기능. 포인트 및 멤버십 할인 제공
+  - name: Coupon
+    sourcetype: kube:container:coupon-fleta
+    description: 쿠폰 및 스탬프 발급·사용 기능 제공
+  - name: Notice
+    sourcetype: kube:container:notice-fleta
+    description: 공지, 이벤트 등의 알림 기능 제공
+  - name: StorytellingSeniorTV
+    sourcetype: kube:container:storytellingsenior-fleta
+    description: 스토리텔링 및 시니어TV 서비스 기능 제공
+  - name: Settings
+    sourcetype: kube:container:settings-fleta
+    description: 단말에서 사용되는 각종 설정 정보 제공
+  - name: Notify
+    sourcetype: kube:container:notify-fleta
+    description: SMS, MMS, 푸시 등 메시징 기능 제공
+  - name: Madecassol
+    sourcetype: kube:container:madecassol-fleta
+    description: 스스로 해결 가이드 서비스
+  - name: Bouncer
+    sourcetype: kube:container:bouncer-fleta
+    description: 사용자 정보 인증 서비스
+  - name: Watpur
+    sourcetype: kube:container:watpur-fleta
+    description: 신속한 컨텐츠 탐색을 위한 모바일 웹 서비스 (TV모아)
+  - name: Crepas
+    sourcetype: kube:container:crepas-fleta
+    description: BPAS-ADMIN 리팩토링 서비스
+  - name: Pinkpas
+    sourcetype: kube:container:pinkpas-fleta
+    description: BPAS-ADMIN 상품 관련 Inner API 서비스
+  - name: Scanner
+    sourcetype: kube:container:scanner-fleta
+    description: 콘텐츠 탐색 기능을 단말에 제공
+  - name: YouQuiz
+    sourcetype: kube:container:youquiz-fleta
+    description: uGPT 활용 리뷰 평점 제공 서비스
+  - name: Saturn
+    sourcetype: kube:container:saturn-fleta
+    description: MIMAS용 common API 및 스케줄 서비스
+  - name: Orbit
+    sourcetype: kube:container:orbit-fleta
+    description: YouQuiz의 동기/비동기 호출 지원 및 로직 처리 서비스
+  - name: Contents360
+    sourcetype: kube:container:contents360-fleta
+    description: 페르소나 평점·리뷰 제공 서비스
+  - name: MIMAS
+    sourcetype: kube:container:mimas-fleta
+    description: (운영 환경 기준 보완 필요)
+  - name: BPAS
+    sourcetype: kube:container:bpas-fleta
+    description: (운영 환경 기준 보완 필요)
+  - name: MeCS
+    sourcetype: kube:container:mecs-fleta
+    description: (운영 환경 기준 보완 필요)
+  - name: Assimilator
+    sourcetype: kube:container:assimilator-fleta
+    description: (운영 환경 기준 보완 필요)
+  - name: Pacman
+    sourcetype: kube:container:pacman-fleta
+    description: (운영 환경 기준 보완 필요)
